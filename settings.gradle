@@ -1,0 +1,12 @@
+rootProject.name = 'designPattern'
+include 'factory'
+include 'strategy'
+include 'observer'
+include 'decorator'
+include 'singleton'
+include 'command'
+include 'adapter'
+include 'template'
+include 'state'
+include 'proxy'
+
