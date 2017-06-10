@@ -38,7 +38,9 @@ abstractFatory 抽象工厂方法(控制翻转)
 09state模式
 将状态生成单独的类，状态更改改成状态类内部实现
 
-09动态代理proxy
+10动态代理proxy
 静态代理，代理类实现目标接口，然后依赖调用被代理类具体方法
 动态代理，InvocationHandlerImpl依赖被代理接口,实现代理调用;
 然后通过Proxy.newProxyInstance反射出被代理对象
+
+11template模板模式
