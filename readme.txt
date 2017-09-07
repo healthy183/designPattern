@@ -44,3 +44,10 @@ abstractFatory 抽象工厂方法(控制翻转)
 然后通过Proxy.newProxyInstance反射出被代理对象
 
 11template模板模式
+
+
+interpreter解释器模式
+switch出对应解释器进行操作,类似路由功能
+
+prototype原形模式
+clone()试下

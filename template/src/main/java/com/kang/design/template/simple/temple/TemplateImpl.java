@@ -1,5 +1,6 @@
-package com.kang.design.template;
+package com.kang.design.template.simple.temple;
 
+import com.kang.design.template.simple.part.MyParticipations;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -10,7 +11,12 @@ import lombok.extern.slf4j.Slf4j;
  * @Version
  */
 @Slf4j
-public class TomImpl  extends  TemplateClazz{
+public class TemplateImpl extends TemplateClazz<MyParticipations> {
+    @Override
+    public MyParticipations getparticipations() {
+        return new MyParticipations();
+    }
+
     @Override
     public void say() {
         log.info("tom say hi!");

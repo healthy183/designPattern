@@ -1,4 +1,4 @@
-package com.kang.design.template;
+package com.kang.design.template.simple.part;
 
 import lombok.extern.slf4j.Slf4j;
 

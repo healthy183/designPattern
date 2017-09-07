@@ -1,4 +1,6 @@
-package com.kang.design.template;
+package com.kang.design.template.simple;
+
+import com.kang.design.template.simple.temple.TemplateImpl;
 
 /**
  * @Title 类名
@@ -10,7 +12,7 @@ package com.kang.design.template;
 public class MainRun {
 
     public static void main(String[] args) {
-        TomImpl tom =  new TomImpl();
+        TemplateImpl tom =  new TemplateImpl();
         tom.templeMethod();
     }
 }

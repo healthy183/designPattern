@@ -9,4 +9,5 @@ include 'adapter'
 include 'template'
 include 'state'
 include 'proxy'
+include 'interpreter'
 
